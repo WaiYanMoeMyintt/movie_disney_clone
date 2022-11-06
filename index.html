@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="What is ChillFlix? ChillFlix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries, ...">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no, maximum-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable = n0">
+    <title>ChillFlix - Watch TV Shows Online, Watch Movies Online</title>
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <!-- <div class="search-body">
+    
+    </div> -->
+      <main class="relative">
+        <!-- movie-nav-start -->
+        <nav class="flex p-4 justify-between  items-center relative movie-nav-content">
+                <div class="movie-nav-column-1 flex items-center gap-5">
+                     <a class="cursor-pointer" href="./index.html">
+                         <p class="font-extrabold tracking-widest inline text-3xl text-white">Chill<span class="text-3xl tracking-widest font-black">Flix</span></p>
+                     </a>
+                     <form method="post" action="./movie-search/search.html" class="movie-nav-form ml-8  relative  rounded-2xl w-full flex flex-row justify-center items-center">
+                         <img width="25px" class='cursor-pointer ml-4' alt = "search" src = "./media/search.svg"/>
+                         <input class="block find-movies rounded-2xl py-3.5 px-40 bg-transparent placeholder:absolute text-sm focus:outline-none" type="text" placeholder="Find movies & TV shows and more.....">
+                     </form>
+                </div>
+                <div class="movie-nav-column-2 flex justify-center items-center gap-5">
+                      <ul class="flex gap-4">
+                         <li class="my-0 mx-2">
+                             <a class="movies-tv" href="">Movies & TV</a>
+                         </li>
+                         <li class="my-0 mx-2">
+                            <a href="">Features</a>
+                        </li>
+                        <li class="my-0 mx-2">
+                            <a class="news" href="">News</a>
+                        </li>
+                      </ul>
+                    <div class="movie-nav-button">
+                        <a href ="./account/signup.html" class="movie-nav-signup">Sign Up</a>
+                        <a href="./account/login.html" class="movie-nav-login inline-block cursor-pointer my-0 mx-4 py-2 px-8 rounded-lg">Login</a>
+                    </div>
+                </div>
+        </nav>
+        <!-- movie nav content section -->
+        
+    <section>
+        <!-- movie nav menubar section1 -->
+        <nav class="p-4 flex justify-between  movie-nav-menu">
+             <div class="movie-nav-column-1 flex items-center gap-5">
+                <a class="cursor-pointer" href="./index.html">
+                     <p class="text-white font-extrabold text-3xl tracking-widest inline ">Chill<span class="tracking-widest text-3xl font-black">Flix</span></p>
+                </a>
+            </div>         
+            <div class="movie-menu-bar rounded-md h-9 py-2.5 px-4">
+                <img src="./media/menu.svg" alt="menu" class="cursor-pointer menu">
+          </div>
+        </nav>
+         <!-- movie nav menubar section2 -->
+        <nav class="movie-mobile-menu absolute w-full top-0 h-full invisible opacity-0 ">
+              <div class="movie-mobile-nav p-4 flex justify-between items-center">
+                    <div class="close-menu">
+                         <img width="20px"  class="cursor-pointer close-icon" src="./media/close.svg" alt="close">
+                    </div>
+              </div>
+            
+            <form class="p-4 mobile-form" action="">
+                <input type="text" class="mobile-input py-2 px-8 rounded-2xl w-full focus:outline-none" placeholder="Search movies & TV shows...">
+            </form>
+            
+            <div class="movie-mobile-item p-4">
+                <ul>
+                    <h3 class="font-bold py-1.8.5 px-0">Free Movies & TV</h3>
+                      <li class="my-4 mx-0"><a href="">Latest movies</a></li>
+                      <li class="my-4 mx-0"><a href="">Movies & TV Shows</a></li>
+                      <li class="my-4 mx-0"><a href="">Live TV Channels</a></li>
+                      <li class="my-4 mx-0"><a href="">Most Popular</a></li>
+                      <li class="my-4 mx-0"><a href="">Coming Soon</a></li>
+                </ul>
+  
+                <ul>
+                  <h3 class="font-bold py-1.8.5 px-0 ">Categories</h3>
+                  <li class="my-4 mx-0"><a href="">Action</a></li>
+                  <li class="my-4 mx-0"><a href="">Comedy</a></li>
+                  <li class="my-4 mx-0"><a href="">Drama</a></li>
+                  <li class="my-4 mx-0"><a href="">Horror</a></li>
+                  <li class="my-4 mx-0"><a href="">Romance</a></li>
+                  <li class="my-4 mx-0"><a href="">Thrillers</a></li>
+              </ul>
+  
+              <ul>
+                  <h3 class="font-bold py-1.8.5 px-0 ">Get the App</h3>
+                    <li class="my-4 mx-0"><a href="">For TVs</a></li>
+                    <li class="my-4 mx-0"><a href="">For Mobile</a></li>
+                    <li class="my-4 mx-0"><a href="">For Desktop</a></li>
+                    <li class="my-4 mx-0"><a href="">For Web</a></li>
+                    <li class="my-4 mx-0"><a href="">For Extension</a></li>
+              </ul>
+  
+              <ul>
+                  <h3 class="font-bold py-1.8.5 px-0 ">News</h3>
+                    <li class="my-4 mx-0"><a href="">Our Blog</a></li>
+                    <li class="my-4 mx-0"><a href="">The Gist</a></li>
+                    <li class="my-4 mx-0"><a href="">ChillFlix Labs</a></li>
+                    <li class="my-4 mx-0"><a href="">About ChillFlix</a></li>
+                    <li class="my-4 mx-0"><a href="">Careers</a></li>
+              </ul>
+            </div>         
+            
+            <div class="movie-mobile-nav-button p-4 flex items-center justify-between">
+                <a href ="./account/signup.html" class="movie-nav-signup">Sign Up</a>
+                <a href="./account/login.html" class="movie-nav-login inline-block cursor-pointer my-0 mx-4 py-2 px-8 rounded-lg">Login</a>
+            </div>
+        </nav>
+    </section>
+    <!-- header section start -->
+
+   <header class="relative">
+      <div class="video-container relative ">
+            <video class="absolute top-0 left-0 w-full h-screen object-cover pointer-events-none" src="./media/johnwick.mp4" muted autoplay loop></video>
+      </div>
+      <!-- video-container -->
+     
+      <!-- nav dropdown-container -->
+    <nav class="flex p-4 justify-between movie-nav-dropdown bg-transparent absolute right-0">
+        <div>     
+        </div>
+       
+        <div class="movie-nav-sub-dropdown flex justify-center items-center gap-5">
+            <div class="movie-dropdown-content-1 rounded-2xl">
+                <ul class="movie-design py-0 px-12 my-0 mx-8">
+                    <h3 class="font-semibold pb-2.5">Explore</h3>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="">Latest movies</a></li>
+                    <hr>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="">Movies & TV Shows</a></li>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="">Live TV Channels</a></li>
+                    <hr>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="">Most Popular</a></li>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="">Coming Soon</a></li>
+                </ul>
+
+                <ul class="my-0  py-0 px-12  mx-8">
+                    <h3 class="font-semibold pb-2.5">Categories</h3>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="./movie-categories/action-drama.html">Action</a></li>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="./movie-categories/comedy.html">Comedy</a></li>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="./movie-categories/drama.html">Drama</a></li>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="./movie-categories/horror.html">Horror</a></li>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="./movie-categories/romance.html">Romance</a></li>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="./movie-categories/halloween.htmls">Thrillers</a></li>
+                </ul>
+
+                <ul class="my-0  py-0 px-12  mx-8">
+                    <h3 class="font-semibold pb-2.5" style="opacity: 0;">Categories</h3>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="./movie-categories/anime.html">Animation</a></li>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="./movie-categories/war.html">War</a></li>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="./movie-categories/documentary.html">Documentary</a></li>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="./movie-categories/family.html">Family</a></li>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="./movie-categories/adventures.html">Adventures</a></li>
+                    <li class="rounded-md py-1.8 px-1.5 my-4 mx-0"><a href="./movie-categories/sci-fi.html">Sci-Fi</a></li>
+                </ul>
+            </div>
+            <div class="movie-dropdown-content-2 h-full py-4 px-8 rounded-2xl ">
+                <div class="movie-news-item cursor-pointer flex">
+                     <div class="movie-news-icon py-4 px-0 my-0 mx-6">
+                        <i class="uil uil-newspaper text-3xl"></i>
+                     </div>
+                     <div class="movie-news-message py-4 px-0">
+                         <h4 class="py-1.5 px-0">Our Blog</h4>
+                         <p class="text-sm">Exciting updates and our latest releases.</p>
+                     </div>
+                </div>
+                <div class="movie-news-item cursor-pointer  flex">
+                    <div class="movie-news-icon py-4 px-0 my-0 mx-6">
+                        <i class="uil uil-flask text-3xl"></i>
+                    </div>
+                    <div class="movie-news-message py-4 px-0">
+                        <h4 class="py-1.5 px-0">ChillFlix Labs</h4>
+                        <p class="text-sm">New experiment and tech behind Chillflix.</p>
+                    </div>
+               </div>
+               <div class="movie-news-item cursor-pointer  flex">
+                      <div class="movie-news-icon py-4 px-0 my-0 mx-6">
+                        <i class="uil uil-exclamation-circle text-3xl"></i>
+                    </div>
+                    <div class="movie-news-message py-4 px-0">
+                        <h4 class="py-1.5 px-0">About ChillFlix</h4>
+                        <p class="text-sm">Who we are and what we're on mission doing</p>
+                    </div>
+               </div>
+                <div class="movie-news-item cursor-pointer  flex">
+                      <div class="movie-news-icon py-4 px-0 my-0 mx-6">
+                        <i class="uil uil-bag text-3xl"></i>
+                    </div>
+                    <div class="movie-news-message py-4 px-0">
+                        <h4 class="py-1.5 px-0">Careers</h4>
+                        <p class="text-sm">Checkout our current openings</p>
+                    </div>
+               </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- video content -->
+      <div class="video-content">
+        <div class="movie-video-sub-content py-0 px-24">
+            <div class="movie-title">
+                <h1 class="text-5xl font-bold pb-6"> 
+                    Stream all your favourites <br>
+                    and more
+               </h1>
+           </div>
+           <div class="movie-message">
+               <p class="pb-6 leading-9 tracking-widest">
+               With ChillFlix you can watch over 20,000 free movies and <br>
+               shows, Chill Live TV on almost any device. What are <br>
+                you waiting for?
+               </p>
+           </div>
+           <div class="movie-button">
+                 <a href="#watch-now" class="inline-block cursor-pointer my-4 mx-0 py-3 px-14 rounded-lg">Watch Now</a>
+    
+           </div>
+           </div>
+      </div>
+
+      <!-- movie-mobile-poster -->
+       <div class="movie-mobile-poster w-full h-screen overflow-hidden relative">
+              <img class="absolute top-0 left-0 w-full h-screen object-cover " src = "./media/OTT-Netflix.jpg" alt="NetFlix Background">
+       </div>
+       <!-- movie-mobile-video-content -->
+       <div class="movie-mobile-video-content absolute top-0 h-full">
+        <div class="movie-video-sub-content relative top-36">
+         <div class="movie-title">
+             <h1 class="text-center pb-6 tracking-widest font-bold"> 
+                 Go ahead, <br>
+                 stream free
+            </h1>
+        </div>
+        <div class="movie-message">
+            <p class="text-center text-base py-4 px-2.5 tracking-widest leading-6">
+            With ChillFlix you can watch over 20,000 free movies and <br>
+            shows, Chill Live TV on almost any device. What are <br>
+             you waiting for?
+            </p>
+        </div>
+        <div class="movie-button">
+            <a href="#watch-now" class="inline-block cursor-pointer absolute right-0 left-0 my-12 mx-4 text-center py-3 px-12 rounded-lg">Watch Now</a>
+        </div>
+        </div>
+       </div>
+    </header>
+
+   <div id = "watch-now" class="movie-api-container">
+     
+    <!-- popular movies section  -->
+        <div class="popular-movie-content">
+            <div class="movie-popular-header flex justify-between items-center">
+                <div class="movie-categories">
+                     <h3>Popular Movies</h3>
+                </div>
+                <div class="movie-slider-button">
+                        <i  id ="popular-prev" class="uil uil-angle-left-b prev"></i>
+                        <i   id="popular-prev" class="uil uil-angle-right-b next"></i>
+                </div>
+            </div>  
+            <div class="movie-popular-body">
+                  <!-- <div class="movie-popular-info"></div>
+                  <div class="movie-popular-detail"></div> -->
+            </div>
+        </div>
+
+        <!-- upcoming movies section  -->
+        <div class="upcoming-movie-content">
+            <div class="movie-upcoming-header flex justify-between items-center">
+                <div class="movie-categories">
+                     <h3>Upcoming Movies</h3>
+                </div>
+                <div class="movie-slider-button">
+                      <i class="uil uil-angle-left-b prev-1"></i>
+                      <i class="uil uil-angle-right-b next-1"></i>
+                </div>
+            </div> 
+            <div class="movie-upcoming-body">
+                <!-- <div class="movie-coming-info"></div>
+                <div class="coming-detail"></div> -->
+         </div>
+        </div>
+
+        <!-- tv shows section  -->
+        <div class="tvshow-movie-content">
+            <div class="tvshow-header flex justify-between items-center">
+                <div class="movie-categories">
+                     <h3>Discover TV Shows</h3>
+                </div>
+                <div class="movie-slider-button">
+                      <i class="uil uil-angle-left-b prev-2"></i>
+                      <i class="uil uil-angle-right-b next-2"></i>
+                </div>
+            </div> 
+            <div class="movie-tvshow-body">
+                <!-- <div class="movie-tvshow-info"></div>
+                <div class="tvshow-detail"></div> -->
+         </div>
+        </div>
+
+          <!-- movie trending section  -->
+          <div class="trending-movie-content">
+            <div class="trending-header flex justify-between items-center">
+                <div class="movie-categories">
+                     <h3>Trending Movies</h3>
+                </div>
+                <div class="movie-slider-button">
+                      <i class="uil uil-angle-left-b prev-3"></i>
+                      <i class="uil uil-angle-right-b next-3"></i>
+                </div>
+            </div> 
+            <div class="movie-trending-body">
+                <!-- <div class="movie-trending-info"></div>
+                <div class="trending-detail"></div> -->
+         </div>
+        </div>
+   </div>
+
+   <!-- explore movies list -->
+   <div class="explore-movies">
+        <div class="explore-movie-title">
+              <h3>Explore Film Genres</h3>
+        </div>
+        <div class="movies-control">
+            <div class="horror" >
+                <a href="./movie-categories/horror.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qWsHMrbg9DsBY3bCMk9jyYCRVRs.jpg" alt="horror">
+                    <p>Horror</p>
+                </a>
+            </div>
+            <div class="action" >
+                <a href="./movie-categories/adventures.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/lAXONuqg41NwUMuzMiFvicDET9Y.jpg" alt="action">
+                    <p>Adventures</p>
+                </a>
+            </div>
+            <div class="action-drama" >
+                <a href="./movie-categories/action-drama.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/5E1BhkCgjLBlqx557Z5yzcN0i88.jpg" alt="action/drama">
+                    <p>Action-Drama</p>
+                </a>
+            </div>
+            <div class="comedy" >
+                <a href="./movie-categories/comedy.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/7qop80YfuO0BwJa1uXk1DXUUEwv.jpg" alt="comedy">
+                    <p>Comedy</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="movies-control-1">
+            <div class="halloween" >
+                <a href="./movie-categories/halloween.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/oPBEnNP4Fg4gv9c0KBhchmtoG4H.jpg" alt="halloween">
+                    <p>Halloween</p>
+                </a>
+            </div>
+            <div class="christmas" >
+                <a href="./movie-categories/history.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/rT49ousKUWN3dV7UlhaC9onTNdl.jpg" alt="History">
+                    <p>History</p>
+                </a>
+            </div>
+            <div class="mystery" >
+                <a href="./movie-categories/mystery.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/tegBpjM5ODoYoM1NjaiHVLEA0QM.jpg" alt="mystery">
+                    <p>Mystery</p>
+                </a>
+            </div>
+            <div class="romance" >
+                <a href="../movie-categories/romance.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/clDFqATL4zcE7LzUwkrVj3zHvk7.jpg" alt="romance">
+                    <p>Romance</p>
+                </a>
+            </div>
+        </div>
+
+        
+        <div class="movies-control-2">
+            <div class="martial-art" >
+                <a href="./movie-categories/music.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dzsckjgiMt6XxuhoYcyW3bWcWl7.jpg" alt="music">
+                    <p>Music</p>
+                </a>
+            </div>
+            <div class="sci-fi" >
+                <a href="./movie-categories/sci-fi.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/Adgnfhm9B8YAQmC0osuP4zO9SRc.jpg" alt="scifi">
+                    <p>Sci-fi & Fantasy</p>
+                </a>
+            </div>
+            <div class="family" >
+                <a href="./movie-categories/family.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/3FjakKDEuaO8FpR1qJctV6njqYy.jpg" alt="family">
+                    <p>Family</p>
+                </a>
+            </div>
+            <div class="tv-shows" >
+                <a href="./movie-categories/tv-shows.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/AaHQrd5Gjwqj1ZfF7Pa3hwNAT2v.jpg" alt="romance">
+                    <p>TV Shows</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="movies-control-3">
+            <div class="anime" >
+                <a href="./movie-categories/anime.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/39wmItIWsg5sZMyRUHLkWBcuVCM.jpg" alt="anime">
+                    <p>Anime</p>
+                </a>
+            </div>
+            <div class="documentary" >
+                <a href="./movie-categories/documentary.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jcaM6V2tCtu6iMHDsGLBUbaYgYp.jpg" alt="documentaries"/>
+                    <p>Documentary</p>
+                </a>
+            </div>
+            <div class="series" >
+                <a href="./movie-categories/war.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/glZfjVEzZCJ7oTHWa3m6KefcoRN.jpg" alt="Series">
+                    <p>War</p>
+                </a>
+            </div>
+            <div class="thrillers" >
+                <a href="./movie-categories/drama.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/6FsGeIp7heHm5eh4tIxTzHIRxmt.jpg" alt="Drama">
+                    <p>Drama</p>
+                </a>
+            </div>
+        </div>
+
+        <div class="movies-control-4">
+            <div class="fantasy" >
+                <a href="./movie-categories/fantasy.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/p70dq1YxabemdZDm5K6Q8G10wSn.jpg" alt="fantasy">
+                    <p>Fantasy</p>
+                </a>
+            </div>
+            <div class="western" >
+                <a href="./movie-categories/western.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/i9GUSgddIqrroubiLsvvMRYyRy0.jpg" alt="western"/>
+                    <p>Western</p>
+                </a>
+            </div>
+            <div class="cartoon" >
+                <a href="./movie-categories/cartoon.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/gGEsBPAijhVUFoiNpgZXqRVWJt2.jpg" alt="cartoon">
+                    <p>Cartoon</p>
+                </a>
+            </div>
+            <div class="china" >
+                <a href="./movie-categories/movie-now-playing.html">
+                    <img src="https://www.themoviedb.org/t/p/w600_and_h900_bestv2/dN6XnCEP3AO7N4XFOFyZ8V8kZF5.jpg" alt="now-playing">
+                    <p>Movies Now Playing</p>
+                </a>
+            </div>
+        </div>
+     
+   </div>
+   
+   <!-- movie-device-list -->
+   <div class="movie-devices-list">
+        <div class="movie-devices-title">
+            <h3>Available on your favorite devices</h3>
+        </div>
+        <div class="movie-devices-control">
+   
+         <div class="movie-tv">
+                <img src="./media/original.png" alt="movie-tv">
+                <h3>TV</h3>
+                <ul class="devices-list">
+                    <li>Amazon Fire TV</li>
+                    <li>AppleTV</li>
+                    <li>Android TV devices</li>
+                    <li>Chromecast</li>
+                    <li>Panasonic</li>
+                    <li>Samsung</li>
+                </ul>
+         </div>
+         <div class="movie-computer">
+             <img src="./media/original (1).png" alt="computer">
+             <h3>Computer</h3>
+             <ul class="devices-list">
+                <li>Chrome OS</li>
+                <li>Window PC</li>
+                <li>MAC OS</li>
+             </ul>
+         </div>
+         <div class="movie-mobile">
+             <img src="./media/original (2).png" alt="mobile">
+             <h3>Mobile & Tablets</h3>
+             <ul class="devices-list">
+                <li>Amazon Fire Tablets</li>
+                <li>iPhone and iPad</li>
+                <li>Android Phones & Tablets</li>
+             </ul>
+         </div>
+         <div class="movie-game-console">
+            <img src="./media/original (3).png" alt="movie-game-console">
+            <h3>Game Consoles</h3>
+            <ul class="devices-list">
+               <li>PS4</li>
+               <li>PS5</li>
+               <li>Xbox Series X</li>
+               <li>Xbox Series S</li>
+            </ul>
+         </div>
+                 
+        </div>
+   </div>
+
+   <!-- movie-ask-questions -->
+   <div class="movie-ask-questions">
+     <div class="movie-ask-title">
+        <h3>Frequently Asked Questions</h3>
+     </div>
+      <div class="movie-questions-control">
+           <div id="questions" class="question-1">
+                 <div class="question-title">
+                     <h5>What is a ChillFlix?</h5>
+                      <i id = "plus" class="uil uil-plus"></i>
+                      <i id = "minus" class="uil uil-minus"></i>
+                 </div>
+                 <div id="questions-message" class="question-message">
+                      <p>
+                        ChillFlix is the streaming home of Disney, Pixar, Marvel, Star Wars, National Geographic, and more. 
+                        From new releases to your favorite classics and exclusive Originals, there's something for everyone.
+                      </p>
+                 </div>
+           </div>
+           <div id="questions" class="question-2">
+            <div class="question-title">
+                <h5>Is ChillFlix really free?</h5>
+                 <i id = "plus" class="uil uil-plus"></i>
+                 <i id = "minus" class="uil uil-minus"></i>
+            </div>
+            <div id="questions-message"  class="question-message">
+                 <p>
+                    Plex is a free (and legal) streaming app for everyone, no credit cards or subscription costs or hidden fees.
+                    To keep our service free and legal, we include ads which monetize all of the content that our partners, such 
+                    as Lionsgate, AMC, and Crackle, provide to us.
+                 </p>
+            </div>
+           </div>
+           <div id="questions" class="question-3">
+            <div class="question-title">
+                <h5>DO I need a ChillFlix Account?</h5>
+                 <i id = "plus" class="uil uil-plus"></i>
+                 <i id = "minus" class="uil uil-minus"></i>
+            </div>
+            <div id="questions-message"  class="question-message">
+                 <p>
+                    You do not need to create an account to use Plex, but you get more when you do. Benefits that 
+                    come with your free account include more free content, access to your very own universal
+                    Watchlist, customize the streaming services that show up in your search results, the ability
+                    to pick up where you left off on any device, and more.
+                 </p>
+            </div>
+           </div>
+           <div id="questions" class="question-4">
+            <div class="question-title">
+                <h5>Where can I watch ChillFlix?</h5>
+                 <i id = "plus" class="uil uil-plus"></i>
+                 <i id = "minus" class="uil uil-minus"></i>
+            </div>
+            <div id="questions-message"  class="question-message">
+                 <p>
+                    The Disney+ app is available on mobile devices, web browsers, game consoles, set-top boxes, 
+                    and smart TVs. For a complete list of supported devices, click here.
+                 </p>
+            </div>
+           </div>
+           <div id="questions" class="question-5">
+            <div class="question-title">
+                <h5>How can I personalize my Flex experience?</h5>
+                 <i id = "plus" class="uil uil-plus"></i>
+                 <i id = "minus" class="uil uil-minus"></i>
+            </div>
+            <div id="questions-message"  class="question-message">
+                 <p>
+                    It’s free and easy. Just create your free Plex account, and you can add movies to your own universal
+                     Watchlist, add favorite channels to your live TV lineup, personalize your streaming services, and more.
+                 </p>
+            </div>
+           </div>
+           <div id="questions" class="question-6">
+            <div class="question-title">
+                <h5>Can I use ChillFlix to enjoy my own personal media?</h5>
+                 <i id = "plus" class="uil uil-plus"></i>
+                 <i id = "minus" class="uil uil-minus"></i>
+            </div>
+            <div id="questions-message"  class="question-message">
+                 <p>
+                    Yes! If you are looking for the perfect home for your own media, look no further than the 
+                    Plex Media Server. You can install the server on a computer or NAS device you already have
+                     and then get up and running in minutes. Check out our support articles here.
+                 </p>
+            </div>
+           </div>
+      </div>
+   </div>
+  <!-- movie-footer-sections -->
+      <footer class="height">
+    <div class="movie-footer-link-1">
+      <div class="footer-link1-title">
+          <a class="cursor-pointer" href="./index.html">
+              <p class="font-extrabold tracking-widest inline text-3xl text-white">Chill<span class="text-3xl tracking-widest font-black">Flix</span></p>
+          </a>
+      </div>
+      <div class="footer-link1">
+          <h5>Company</h5>
+          <ul>
+              <li>About</li>
+              <li>Career</li>
+              <li>Our Culture</li>
+              <li>Giving</li>
+              <li>Press Room</li>
+              <li>The ChillFlix Blog</li>
+          </ul>
+      </div>
+      <div class="footer-link1">
+          <h5>ChillFlix Plus</h5>
+          <ul>
+              <li>Go Premium</li>
+              <li>ChillFlix Labs</li>
+              <li>Get Perks</li>
+          </ul>
+      </div>
+      <div class="footer-link1">
+           <h5>Download</h5>
+           <ul>
+              <li>ChillFlix Media Server</li>
+              <li>App & Devices</li>
+              <li>Where to watch</li>
+           </ul>
+      </div>
+      <div class="footer-link1">
+          <h5>Resources</h5>
+          <ul>
+              <li>Support</li>
+              <li>Articles</li>
+              <li>Form</li>
+              <li>Billing Questions</li>
+              <li>Status</li>
+              <li>Contact</li>
+          </ul>
+      </div>
+     <div class="footer-link1">
+         <h5>Watch Free</h5>
+         <ul>
+          <li>TV Channel Finder</li>
+          <li>What to Watch</li>
+          <li>A24 Collections</li>
+         </ul>
+     </div>
+    </div>
+    <div class="movie-footer-link-2">
+    <div class="movie-footer-control">
+    <div class="footer-link-1">
+      <h5>Legal</h5>
+      <ul>
+      <li>Privacy Policy(Updated)</li>
+      <li>Terms of user (Updated)</li>
+      <li>Do not sell my personal information</li>
+     </ul>
+    </div>
+    <div class="footer-link-1">
+       <p>Privacy & Legal</p>
+    </div>
+    <div class="footer-link-1">
+      <p>Ads Choices</p>
+    </div>
+    <div class="footer-link-1">
+    <p>Accessibility</p>
+    </div>
+    </div>
+    <div class="movie-footer-icon">
+    <a target="_blank" href="https://www.facebook.com/waiyanmoe.myint.79274">
+      <i class="uil uil-facebook"></i>
+    </a>
+    <a target="_blank" href="https://github.com/WaiYanMoeMyintt">
+      <i class="uil uil-github"></i>
+    </a>
+    <a href="">
+      <i class="uil uil-telegram"></i>
+    </a>
+    <a href="mailto:@wymoemyint4523@gmail.com">
+      <i class="uil uil-envelope"></i>
+    </a>
+    <a target="_blank" href="https://twitter.com/wymoemyint">
+      <i class="uil uil-twitter"></i>
+    </a>
+    </div>
+    </div>
+     </footer>
+
+
+    <div class="movie-scroll">
+         <div class="movie-scroll-icon">
+            <i class="uil uil-arrow-up"></i>
+         </div>
+    </div>
+</main>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
+
