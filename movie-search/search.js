@@ -45,8 +45,6 @@ const extractSearchAPI = (movies)=>{
     searchBody.appendChild(searchList);
 }
 //search movies api
-
-
 form.addEventListener("keyup",(s)=>{
       s.preventDefault();
       const inputValue  = input.value;
@@ -67,7 +65,7 @@ form.addEventListener("submit",(s)=>{
       if(inputValue !==''){
           movieSearchAPI(searchAPIQuery+inputValue);
           searchTitle.style.display = "block";
-          searchText.textContent = inputValue;
+          searchText.textContent = mobileValue;
           console.log(movieSearchAPI(searchAPIQuery+inputValue));
       }
       else {
@@ -84,7 +82,7 @@ form.addEventListener("submit",(s)=>{
           if(mobileValue !== ''){
            movieSearchAPI(searchAPIQuery + mobileValue);
            movieMenu.classList.remove("menu-active");
-           title.textContent = "Result for: " + mobileValue;
+           searchTitle.textContent = mobileValue;
           }
           else {
            console.log("error");
@@ -96,7 +94,7 @@ form.addEventListener("submit",(s)=>{
        const mobileValue = mobileInput.value
        if(mobileValue !== ''){
         movieSearchAPI(searchAPIQuery + mobileValue);
-        title.textContent = "Result for: " + mobileValue;
+        searchTitle.textContent = mobileValue;
        }
        else {
         console.log("error");
