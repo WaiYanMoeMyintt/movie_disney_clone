@@ -250,7 +250,7 @@ footer {
 }
 footer::after{
   content: '';
-  width: 100%;
+  width: 90%;
   height: .5px;
   background-color: #ccc;
   position: absolute;
@@ -339,6 +339,7 @@ footer::after{
 .signup-form-container{
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
  .signup-form {
@@ -402,6 +403,9 @@ footer::after{
     font-size: .9rem;
     text-align: center;
  }
+ .mobile-form-control button {
+   display: none;
+ }
  .check-green{
     color: green;
     display: none;
@@ -447,16 +451,29 @@ footer::after{
    .uil-telegram{
       display: none;
     }
-    .signup-form-container {
-      padding: 0 2rem;
+      .signup-form-container {
+      padding: 0 1rem;
     }
     .signup-form-container form{
       padding:0 1rem;
+      width: 18rem;
       height: 50rem;
     }
     .signup-form-container form .form-control input{
       background-color: #1C1F29;
     }
+    .form-control button {
+      display: none;
+   }
+   .mobile-form-control {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align:center;
+   }
+   .mobile-form-control button {
+      display: block;
+   }
     .movie-nav-menu .movie-nav-column-1,.movie-menu-bar{
       display: block;
    }
@@ -662,15 +679,28 @@ footer::after{
       display: none;
     }
     .signup-form-container {
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
     .signup-form-container form{
       padding:0 1rem;
+      width: 18rem;
       height: 50rem;
     }
     .signup-form-container form .form-control input{
       background-color: #1C1F29;
     }
+    .form-control button {
+      display: none;
+   }
+   .mobile-form-control {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align:center;
+   }
+   .mobile-form-control button {
+      display: block;
+   }
     .movie-nav-menu .movie-nav-column-1,.movie-menu-bar{
       display: block;
    }
@@ -876,15 +906,28 @@ footer::after{
       padding:relative;
    }
    .signup-form-container {
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
     .signup-form-container form{
       padding:0 1rem;
+      width: 18rem;
       height: 50rem;
     }
     .signup-form-container form .form-control input{
       background-color: #1C1F29;
     }
+    .form-control button {
+      display: none;
+   }
+   .mobile-form-control {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align:center;
+   }
+   .mobile-form-control button {
+      display: block;
+   }
    
    .movie-nav-menu .movie-nav-column-1,.movie-menu-bar{
       display: block;
@@ -1098,17 +1141,27 @@ footer::after{
       display: block;
    }
    .signup-form-container {
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
     .signup-form-container form{
       padding:0 1rem;
+      width: 25rem;
       height: 50rem;
     }
     .signup-form-container form .form-control input{
       background-color: #1C1F29;
     }
-   .form-control button {
-      padding: 1rem 9rem;
+    .form-control button {
+      display: none;
+   }
+   .mobile-form-control {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align:center;
+   }
+   .mobile-form-control button {
+      display: block;
    }
    /* hide desktop section */
    section{
@@ -1316,17 +1369,27 @@ footer::after{
       display: block;
    }
    .signup-form-container {
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
     .signup-form-container form{
       padding:0 1rem;
+      width: 25rem;
       height: 50rem;
     }
     .signup-form-container form .form-control input{
       background-color: #1C1F29;
     }
-   .form-control button {
-      padding: 1rem 11rem;
+    .form-control button {
+      display: none;
+   }
+   .mobile-form-control {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align:center;
+   }
+   .mobile-form-control button {
+      display: block;
    }
    /* hide desktop section */
    section{
@@ -1531,17 +1594,27 @@ footer::after{
       display: block;
    }
    .signup-form-container {
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
     .signup-form-container form{
       padding:0 1rem;
+      width: 30rem;
       height: 50rem;
     }
     .signup-form-container form .form-control input{
       background-color: #1C1F29;
     }
-   .form-control button {
-      padding: 1rem 11rem;
+    .form-control button {
+      display: none;
+   }
+   .mobile-form-control {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align:center;
+   }
+   .mobile-form-control button {
+      display: block;
    }
    section{
       position: relative;
@@ -1738,17 +1811,27 @@ footer .movie-footer-link-1{
       display: block;
    }
    .signup-form-container {
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
     .signup-form-container form{
       padding:0 1rem;
+      width: 35rem;
       height: 50rem;
     }
     .signup-form-container form .form-control input{
       background-color: #1C1F29;
     }
-   .form-control button {
-      padding: 1rem 11rem;
+    .form-control button {
+      display: none;
+   }
+   .mobile-form-control {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align:center;
+   }
+   .mobile-form-control button {
+      display: block;
    }
    section{
       position: relative;
@@ -1947,17 +2030,31 @@ footer .movie-footer-link-1{
       padding: 1.5rem;
   }
   .signup-form-container {
-   padding: 0 2rem;
+   padding: 0 1rem;
  }
  .signup-form-container form{
    padding:0 1rem;
+   width: 36rem;
    height: 50rem;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
  }
  .signup-form-container form .form-control input{
    background-color: #1C1F29;
  }
-.form-control button {
-   padding: 1rem 11rem;
+ .form-control button {
+   display: none;
+}
+.mobile-form-control {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   text-align:center;
+}
+.mobile-form-control button {
+   display: block;
 }
   .movie-nav-content.hide-nav{
        display: none;
@@ -2141,12 +2238,13 @@ footer .movie-footer-link-1{
 }
  /* devices 1200px  */
  @media only screen and (max-width:1200px){
-   
    .signup-form-container {
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
     .signup-form-container form{
       padding:0 1rem;
+      width: 36rem;
+      height: 50rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -2155,6 +2253,18 @@ footer .movie-footer-link-1{
     .signup-form-container form .form-control input{
       background-color: #1C1F29;
     }
+    .form-control button {
+      display: none;
+   }
+   .mobile-form-control {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align:center;
+   }
+   .mobile-form-control button {
+      display: block;
+   }
    .movie-nav-column-1 .movie-nav-form {
       background-color: #1C1F29;
       margin-left: 0rem;
@@ -2175,10 +2285,12 @@ footer .movie-footer-link-1{
 /* devices 1400px  */
 @media only screen and (max-width:1400px){
    .signup-form-container {
-      padding: 0 2rem;
+      padding: 0 1rem;
     }
     .signup-form-container form{
       padding:0 1rem;
+      width: 40rem;
+      height: 50rem;
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -2187,6 +2299,18 @@ footer .movie-footer-link-1{
     .signup-form-container form .form-control input{
       background-color: #1C1F29;
     }
+    .form-control button {
+      display: none;
+   }
+   .mobile-form-control {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align:center;
+   }
+   .mobile-form-control button {
+      display: block;
+   }
    footer .movie-footer-link-1{
        display: flex;
        justify-content: space-between;
